@@ -4,8 +4,18 @@ import Layout from '../components/Layout'
 const NotFoundPage = () => (
   <Layout>
     <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <div
+        className="basic-icn"
+        style={{
+          backgroundImage: `url('/img/notfound.png')`,
+          backgroundPosition: `top left`,
+          backgroundAttachment: `scroll`,
+        }}
+      />
+      <h1>お探しのページは見つかりませんでした。</h1>
+      <p>もう一度URLを確認してください。</p>
+      <br />
+      <br />
     </div>
   </Layout>
 )

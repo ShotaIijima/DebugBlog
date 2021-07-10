@@ -47,7 +47,7 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    この記事を読む →
                   </Link>
                 </p>
               </article>
@@ -84,7 +84,7 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "YYYY年MM月DD日")
                 featuredpost
                 featuredimage {
                   childImageSharp {

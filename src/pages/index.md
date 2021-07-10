@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Coding for the Next Future
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Coding for the Next Future
+subheading: プログラミングで世界を最適化するためのブログ
 mainpitch:
   title: Why Kaldi
   description: >

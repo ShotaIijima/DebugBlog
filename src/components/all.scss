@@ -1,13 +1,18 @@
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #d64000;
-$kaldi-red-invert: #fff;
+$bblue:rgb(0, 160, 233);
+$bblue-invert: #fff;
 
-$primary: $kaldi-red;
-$primary-invert: $kaldi-red-invert;
+$primary: $bblue;
+$primary-invert: $bblue-invert;
 $body-color: #333;
 $black: #2b2523;
 $white-wrap: hsl(0, 0%, 96%);
+
+.title {
+  border-left-width: 1.5rem;
+  border-left-color: $bblue;
+}
 
 .navbar .navbar-menu {
   box-shadow: none !important;
@@ -55,6 +60,13 @@ $white-wrap: hsl(0, 0%, 96%);
   align-items: center;
 }
 
+.basic-icn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: left;
+}
+
 .btn {
   display: inline-block;
   padding: 12px 16px 10px;
@@ -65,10 +77,10 @@ $white-wrap: hsl(0, 0%, 96%);
   border-radius: 0.25rem;
   text-decoration: none;
   font-weight: 700;
-  color: #cc3700;
+  color: $bblue;
   text-align: center;
-  -webkit-box-shadow: inset 0 0 0 2px #cc3700;
-  box-shadow: inset 0 0 0 2px #f40;
+  -webkit-box-shadow: inset 0 0 0 2px $bblue;
+  box-shadow: inset 0 0 0 2px $bblue;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
 }
@@ -98,9 +110,9 @@ footer.footer {
 $menu-item-color: $white-wrap;
 $menu-item-hover-color: $black !important;
 $menu-item-hover-background-color: $black;
-$menu-item-active-color: $kaldi-red-invert;
-$menu-item-active-background-color: $kaldi-red-invert;
-$menu-list-border-left: 1px solid $kaldi-red-invert;
+$menu-item-active-color: $bblue-invert;
+$menu-item-active-background-color: $bblue-invert;
+$menu-list-border-left: 1px solid $bblue-invert;
 $menu-label-color: $white-wrap;
 
 .menu-label {

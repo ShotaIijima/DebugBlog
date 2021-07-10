@@ -1,14 +1,11 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
+title: プロダクト一覧
 image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+heading: 開発物一覧
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  過去に開発したソフトウェアの一覧です。
 intro:
   blurbs:
     - image: /img/coffee.png

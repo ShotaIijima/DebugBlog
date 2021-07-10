@@ -52,13 +52,13 @@ export default class Index extends React.Component {
                 <input type="hidden" name="form-name" value="contact" />
                 <div hidden>
                   <label>
-                    Don’t fill this out:{' '}
+                    ここには何も記入しないでください: {' '}
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'name'}>
-                    Your name
+                    名前(ニックネームでも可)
                   </label>
                   <div className="control">
                     <input
@@ -73,7 +73,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
-                    Email
+                    メールアドレス
                   </label>
                   <div className="control">
                     <input
@@ -88,7 +88,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Message
+                    メッセージ
                   </label>
                   <div className="control">
                     <textarea
@@ -102,7 +102,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
-                    Send
+                    送信
                   </button>
                 </div>
               </form>
